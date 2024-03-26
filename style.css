@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth scroll;
+}
+
+.container {
+    width: 100%;
+    /* height: 100%; */
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: black;
+    height: 100vh;
+    overflow: hidden;
+    box-shadow: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 50px -10px;
+    margin-bottom: 1rem;
+}
+
+.main-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 6rem;
+}
+
+.main-left>h3 {
+    font-size: 3rem;   
+    text-transform: uppercase;
+}
+
+.main-left>h1 {
+    font-size: 6.5rem;
+    font-weight: 600;
+    color: rgb(242, 201, 118);
+    -webkit-text-stroke: black 0.3rem;
+}
+
+.span-1 {
+    color: black;
+    -webkit-text-stroke: 0;
+}
+
+.main-left>h5 {
+    font-size: 3rem;
+    background: rgb(242, 201, 118);
+    border-radius: 1rem;
+    padding: 0.6rem 1.6rem 0.6rem 1.6rem;
+    text-align: start;
+    width: fit-content;
+}
+
+.main-left>p{
+    font-size: 2rem;
+}
+
+.know-more {
+    width: fit-content;
+    background-color: rgb(242, 201, 118);
+    padding: 1.8rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-right {
+    width: 50%;
+    background: gray; 
+    text-align: center;
+    height: 100%;
+}
+
+.main-right>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    /* mix-blend-mode: multiply; */
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav>ul {
+    list-style-type: none;
+    object-fit: cover;
+    background: rgb(242, 201, 118);
+    padding: 1.2rem 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* width: 4rem; */
+}
+
+.nav>ul>li { 
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 4rem;
+    object-fit: cover;
+}
+
+.nav>ul>li>a>img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+
+.sidebar {
+    height: 100%;
+    background-color: red;
+}
+
